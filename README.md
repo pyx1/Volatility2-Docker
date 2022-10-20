@@ -16,7 +16,9 @@ ________________________________________________________________________________
     ```
 
 * WINDOWS: 
-    * docker run -it --rm -v "$((pwd).path + '\evidencias'):/data_imported" -v "$((pwd).path + '\plugins'):/volatility/volatility/plugins" volatility2-l0h
+    ``` powershell
+    docker run -it --rm -v "$((pwd).path + '\evidencias'):/data_imported" -v "$((pwd).path + '\plugins'):/volatility/volatility/plugins" volatility2-l0h
+    ```
 
 _________________________________________________________________________________
 
