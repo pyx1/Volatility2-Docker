@@ -1,6 +1,9 @@
 # Como realizar primer despliegue del docker 
 
-** docker build . -t volatility2-l0h **
+``` bash
+docker build . -t volatility2-l0h 
+```
+
 
 Se ejecuta una vez para crear la imagen, hacerlo dentro de la propia carpeta
 
