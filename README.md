@@ -29,4 +29,6 @@ ________________________________________________________________________________
 
 Una vez iniciado el contenedor en el encontrareis un sistema linux. Este mismo incluye los plugins de la carpeta, asi como los archivos tramitados.
 
+La carpeta de evidencias corresponde con la ruta /data_imported dentro del contenedor
+
 Dentro del contenedor el comando es "volatility"
