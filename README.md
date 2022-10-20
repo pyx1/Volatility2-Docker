@@ -11,7 +11,9 @@ ________________________________________________________________________________
 
 
 * LINUX: 
-    * docker run -it --rm -v $\(pwd\)/evidencias:/data_imported -v $\(pwd\)/plugins:/volatility/volatility/plugins volatility2-l0h 
+    ``` bash
+    docker run -it --rm -v $(pwd)/evidencias:/data_imported -v $(pwd)/plugins:/volatility/volatility/plugins volatility2-l0h 
+    ```
 
 * WINDOWS: 
     * docker run -it --rm -v "$((pwd).path + '\evidencias'):/data_imported" -v "$((pwd).path + '\plugins'):/volatility/volatility/plugins" volatility2-l0h
